@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: orange;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: teal;
+  color: wheat;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
